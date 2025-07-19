@@ -1,0 +1,8 @@
+yolo11x.pt
+yolov8x.pt
+sam_vit_b_01ec64.pth
+*.png
+*.jpg
+.idea/
+__pycache__/
+.ipynb_checkpoints/
