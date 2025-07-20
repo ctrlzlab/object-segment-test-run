@@ -6,7 +6,7 @@ from segment_anything import sam_model_registry, SamPredictor
 from PIL import Image
 
 # --- Load image ---
-image_path = "milon.jpg"
+image_path = "myimg.jpg"
 image = cv2.imread(image_path)
 image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 height, width = image_rgb.shape[:2]
